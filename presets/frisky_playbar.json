@@ -1,0 +1,17 @@
+{
+  "players": [
+    {
+      "roomName": "PlayBar",
+      "volume": 10
+    }
+  ],
+  "playMode": {
+    "shuffle": true,
+    "repeat": "all",
+    "crossfade": false
+  },
+
+  "uri":"",
+  "pauseOthers": false,
+  "favorite": "Frisky Radio"
+}

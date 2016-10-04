@@ -1,31 +1,54 @@
+
 {
-  "players": [
-    {
-      "roomName": "Bathroom",
-      "volume": 10
+    "test": {
+      "players": [
+        { "roomName": "PlayBar", "volume": 30}
+      ],
+      "state": "PLAYING",
+      "favorite": "Frisky Radio",
+      "playMode": "SHUFFLE",
+      "pauseOthers": true
     },
-    {
-      "roomName": "Kitchen",
-      "volume": 10
+   "rap": {
+      "players": [
+        { "roomName": "Boom Box", "volume": 30},
+        { "roomName": "Living Room", "volume": 30},
+        { "roomName": "PlayBar", "volume": 30},
+        { "roomName": "Kitchen", "volume": 40},
+      ],
+      "state": "PLAYING",
+      "favorite": "Rap",
+      "uri": "x-rincon-stream:RINCON_0000000000001500",
+      "playMode": "SHUFFLE",
+      "pauseOthers": true
     },
-    {
-      "roomName": "Office",
-      "volume": 10
+    "pop rap": {
+      "players": [
+        { "roomName": "Dining Room", "volume": 30},
+        { "roomName": "Living Room", "volume": 30},
+        { "roomName": "Master Bedroom", "volume": 30},
+        {"roomName": "Kitchen5", "volume": 40},
+        {"roomName": "KitchenWall", "volume": 50}
+      ],
+      "state": "PLAYING",
+      "favorite": "Rap (Pop)",
+      "uri": "x-rincon-stream:RINCON_0000000000001500",
+      "playMode": "SHUFFLE",
+      "pauseOthers": true
     },
-    {
-      "roomName": "Bedroom",
-      "volume": 10
-    },
-    {
-      "roomName": "TV Room",
-      "volume": 15
+    "rock": {
+      "players": [
+        { "roomName": "Dining Room", "volume": 30},
+        { "roomName": "Living Room", "volume": 30},
+        {"roomName": "Kitchen5", "volume": 40},
+        { "roomName": "Master Bedroom", "volume": 30},
+        {"roomName": "KitchenWall", "volume": 50}
+      ],
+      "state": "PLAYING",
+      "favorite": "Rock",
+      "uri": "x-rincon-stream:RINCON_0000000000001500",
+      "playMode": "SHUFFLE",
+      "pauseOthers": true
     }
-  ],
-  "playMode": {
-    "shuffle": true,
-    "repeat": "all",
-    "crossfade": false
-  },
-  "pauseOthers": false,
-  "favorite": "My example favorite"
 }
+
